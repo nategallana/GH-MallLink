@@ -1,0 +1,36 @@
+﻿[2026-08-07 09:29:08] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-25
+[2026-08-07 09:29:10] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-25
+[2026-08-07 10:54:58] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-26
+[2026-08-07 10:55:00] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-26
+[2026-08-07 11:14:18] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-27
+    (DB write failed: DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details. | Inner: SQLite Error 19: 'NOT NULL constraint failed: Logs.Source'.)
+[2026-08-07 11:14:19] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-27
+    (DB write failed: DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details. | Inner: SQLite Error 19: 'NOT NULL constraint failed: Logs.Source'.)
+[2026-08-07 11:42:22] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-28
+    (DB write failed: DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details. | Inner: SQLite Error 19: 'NOT NULL constraint failed: Logs.Source'.)
+[2026-08-07 11:42:24] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-28
+    (DB write failed: DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details. | Inner: SQLite Error 19: 'NOT NULL constraint failed: Logs.Source'.)
+[2026-08-07 13:30:54] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-29
+    (DB write failed: DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details. | Inner: SQLite Error 19: 'NOT NULL constraint failed: Logs.Source'.)
+[2026-08-07 13:30:55] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-29
+    (DB write failed: DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details. | Inner: SQLite Error 19: 'NOT NULL constraint failed: Logs.Source'.)
+[2026-08-07 14:03:25] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-03-01
+    (DB write failed: DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details. --> Inner: SQLite Error 19: 'NOT NULL constraint failed: Logs.Source'.)
+[2026-08-07 14:03:26] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-03-01
+    (DB write failed: DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details. --> Inner: SQLite Error 19: 'NOT NULL constraint failed: Logs.Source'.)
+[2026-08-07 14:26:19] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-03-02
+[2026-08-07 14:26:23] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-03-02
+[2026-08-07 15:07:51] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2022-05-01: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 47, in main
+    success = xml_sync.sync_cloud_xml(args.db, args.cloud_dir, target_date=args.target_date or None)
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\xml_sync.py", line 245, in sync_cloud_xml
+    cursor.execute("DELETE FROM CloudItems WHERE OrderNo IN (SELECT OrderNo FROM CloudOrders WHERE AcDate = ?)", (target_date,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+    (DB write failed: DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details. --> Inner: SQLite Error 5: 'database is locked'.)
+[2026-08-07 15:10:50] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-05-01
+[2026-08-07 15:10:52] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-05-01

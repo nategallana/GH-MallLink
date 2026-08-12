@@ -1,0 +1,158 @@
+﻿[2026-08-11 10:26:25] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-11 10:26:26] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 10:26:28] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-17
+[2026-08-11 10:26:29] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-11 11:12:03] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2026-08-16: [Python Error]: ERROR: --cloud_dir is required for sync_cloud action.
+
+[2026-08-11 11:12:05] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2026-08-17: [Python Error]: ERROR: --cloud_dir is required for sync_cloud action.
+
+[2026-08-11 11:12:22] [INFO] [frmProcessEOD] Synced Paradox DB via C# OleDb
+[2026-08-11 11:12:24] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 11:12:25] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-11 11:16:33] [INFO] [frmProcessEOD] Synced Paradox DB via C# OleDb
+[2026-08-11 11:16:35] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 11:16:36] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-11 11:20:32] [INFO] [frmProcessEOD] Synced Paradox DB via C# OleDb
+[2026-08-11 11:20:33] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 11:20:34] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-11 11:20:39] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-11 11:20:40] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 11:20:42] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-17
+[2026-08-11 11:20:43] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-11 13:26:15] [INFO] [frmProcessEOD] Synced Paradox DB via Python Engine
+[2026-08-11 13:26:17] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 13:26:18] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-11 13:32:03] [INFO] [frmProcessEOD] Synced Paradox DB via Python Engine
+[2026-08-11 13:32:05] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 13:32:26] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-11 13:32:27] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 13:36:09] [INFO] [frmProcessEOD] Synced Paradox DB via Python Engine
+[2026-08-11 13:36:11] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 13:40:03] [INFO] [frmProcessEOD] Synced Paradox DB via Python Engine
+[2026-08-11 13:40:04] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 13:57:32] [INFO] [frmProcessEOD] Synced Paradox DB via Python Engine
+[2026-08-11 13:57:33] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 14:05:11] [INFO] [frmProcessEOD] Synced Paradox DB via Python Engine
+[2026-08-11 14:05:12] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 14:09:53] [INFO] [frmProcessEOD] Synced Paradox DB via Python Engine
+[2026-08-11 14:09:55] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 14:22:24] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Starting Native C# Paradox Sync from: 'C:\Users\MIS-01\Desktop\TESTINGPT2\Data'
+[ERROR] C# Paradox Sync failed: ERROR [07002] [Microsoft][ODBC Paradox Driver] Too few parameters. Expected 1.
+
+[2026-08-11 14:24:33] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-11 14:24:35] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 14:45:12] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Starting Native C# Paradox Sync from: 'C:\Users\MIS-01\Desktop\TESTINGPT2\Data'
+[ERROR] C# Paradox Sync failed: SQLite Error 1: 'no such table: StagingItems'.
+
+[2026-08-11 14:46:12] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-11 14:46:13] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 14:46:22] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-11 14:46:23] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 14:52:55] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-11 14:52:57] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 14:53:01] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-11 14:53:02] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 15:11:20] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-11 15:11:21] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 15:11:23] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-17
+[2026-08-11 15:11:24] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-11 16:04:03] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Starting Native C# Paradox Sync from: 'C:\Users\MIS-01\Desktop\TESTINGPT2\Data'
+[ERROR] C# Paradox Sync failed: SQLite Error 1: 'ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint'.
+
+[2026-08-11 16:04:14] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2026-08-16: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 72, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 45, in main
+    success = xml_sync.sync_cloud_xml(args.db, args.cloud_dir, target_date=args.target_date or None)
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\xml_sync.py", line 262, in sync_cloud_xml
+    ensure_unified_schema(cursor)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\xml_sync.py", line 10, in ensure_unified_schema
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        CREATE TABLE IF NOT EXISTS StagingOrders (
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<20 lines>...
+        )
+        ^
+    """)
+    ^^^^
+sqlite3.OperationalError: near "Time": syntax error
+
+[2026-08-11 16:04:16] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2026-08-17: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 72, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 45, in main
+    success = xml_sync.sync_cloud_xml(args.db, args.cloud_dir, target_date=args.target_date or None)
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\xml_sync.py", line 262, in sync_cloud_xml
+    ensure_unified_schema(cursor)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\xml_sync.py", line 10, in ensure_unified_schema
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        CREATE TABLE IF NOT EXISTS StagingOrders (
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<20 lines>...
+        )
+        ^
+    """)
+    ^^^^
+sqlite3.OperationalError: near "Time": syntax error
+
+[2026-08-11 16:05:21] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Starting Native C# Paradox Sync from: 'C:\Users\MIS-01\Desktop\TESTINGPT2\Data'
+[ERROR] C# Paradox Sync failed: SQLite Error 1: 'ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint'.
+
+[2026-08-11 16:05:54] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2026-08-16: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 72, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 45, in main
+    success = xml_sync.sync_cloud_xml(args.db, args.cloud_dir, target_date=args.target_date or None)
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\xml_sync.py", line 262, in sync_cloud_xml
+    ensure_unified_schema(cursor)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\xml_sync.py", line 10, in ensure_unified_schema
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        CREATE TABLE IF NOT EXISTS StagingOrders (
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<20 lines>...
+        )
+        ^
+    """)
+    ^^^^
+sqlite3.OperationalError: near "Time": syntax error
+
+[2026-08-11 16:05:56] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2026-08-17: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 72, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 45, in main
+    success = xml_sync.sync_cloud_xml(args.db, args.cloud_dir, target_date=args.target_date or None)
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\xml_sync.py", line 262, in sync_cloud_xml
+    ensure_unified_schema(cursor)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\xml_sync.py", line 10, in ensure_unified_schema
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        CREATE TABLE IF NOT EXISTS StagingOrders (
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<20 lines>...
+        )
+        ^
+    """)
+    ^^^^
+sqlite3.OperationalError: near "Time": syntax error
+
+[2026-08-11 16:17:55] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-11 16:17:57] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 16:17:59] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-11 16:18:20] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-11 16:18:22] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 16:18:23] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-17
+[2026-08-11 16:18:25] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-11 16:23:45] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-11 16:23:47] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-11 16:23:48] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17

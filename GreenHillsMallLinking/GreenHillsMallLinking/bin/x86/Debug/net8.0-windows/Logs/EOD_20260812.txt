@@ -1,0 +1,33 @@
+﻿[2026-08-12 08:46:26] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 08:46:30] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 08:46:31] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-12 08:47:42] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 08:47:44] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 08:48:03] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 08:48:05] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 08:51:05] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 08:51:06] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:01:25] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 09:01:27] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:03:34] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 09:03:36] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:03:53] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 09:03:55] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:44:06] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Starting Native C# Paradox Sync from: 'C:\Users\MIS-01\Desktop\TESTINGPT2\wBoxCloud\CloudAgent\Outbound\wBox'
+[ERROR] C# Paradox Sync failed: ERROR [42S02] [Microsoft][ODBC Paradox Driver] The Microsoft Jet database engine could not find the object 'ordbkup.DB'.  Make sure the object exists and that you spell its name and the path name correctly.
+
+[2026-08-12 09:45:01] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 09:45:02] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:45:29] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Starting Native C# Paradox Sync from: 'C:\Users\MIS-01\Desktop\TESTINGPT2\wBoxCloud\CloudAgent\Outbound\wBox'
+[ERROR] C# Paradox Sync failed: ERROR [42S02] [Microsoft][ODBC Paradox Driver] The Microsoft Jet database engine could not find the object 'ordbkup.DB'.  Make sure the object exists and that you spell its name and the path name correctly.
+
+[2026-08-12 09:45:52] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 09:45:53] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:47:46] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 09:47:47] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:48:24] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 09:48:26] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 10:39:43] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 10:39:46] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 10:40:17] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 10:40:18] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16

@@ -1,0 +1,256 @@
+﻿GH_Mall_Linking.Forms.frmPaymentMethods Class (C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\Forms\frmPaymentMethods.Designer.cs):
+```
+    partial class frmPaymentMethods
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "frmPaymentMethods";
+        }
+
+        #endregion
+    }
+
+    [System.ComponentModel.DesignerCategory("")]
+    public partial class frmPaymentMethods : Form
+    {
+        private AppDbContext _context;
+        private DataGridView grid;
+        private Button btnAdd;
+        private Button btnDelete;
+        private Button btnSave;
+        private Button btnRefresh;
+        private Label lblStatus;
+
+        public frmPaymentMethods()
+        {
+            InitializeComponentProgrammatically();
+            LoadData();
+        }
+
+        private void InitializeComponentProgrammatically()
+        {
+            this.BackColor = Color.FromArgb(248, 249, 250);
+
+            Label lblTitle = new Label
+            {
+                Text = "Payment Methods Setup",
+                Font = new Font("Segoe UI", 13f, FontStyle.Bold),
+                ForeColor = Color.FromArgb(30, 30, 30),
+                Location = new Point(20, 15),
+                AutoSize = true
+            };
+
+            Panel toolbar = new Panel
+            {
+                Location = new Point(20, 50),
+                Size = new Size(600, 36)
+            };
+
+            btnAdd = new Button { Text = "+ Add New", Location = new Point(0, 0), Size = new Size(90, 30), FlatStyle = FlatStyle.System };
+            btnAdd.Click += BtnAdd_Click;
+
+            btnDelete = new Button { Text = "Delete Selected", Location = new Point(100, 0), Size = new Size(120, 30), FlatStyle = FlatStyle.System };
+            btnDelete.Click += BtnDelete_Click;
+
+            btnRefresh = new Button { Text = "Refresh", Location = new Point(230, 0), Size = new Size(80, 30), FlatStyle = FlatStyle.System };
+            btnRefresh.Click += (s, e) => LoadData();
+
+            btnSave = new Button
+            {
+                Text = "💾 Save Changes",
+                Location = new Point(470, 0),
+                Size = new Size(130, 30),
+                BackColor = Color.FromArgb(0, 122, 204),
+                ForeColor = Color.White,
+                FlatStyle = FlatStyle.Flat
+            };
+            btnSave.FlatAppearance.BorderSize = 0;
+            btnSave.Click += BtnSave_Click;
+
+            toolbar.Controls.Add(btnAdd);
+            toolbar.Controls.Add(btnDelete);
+            toolbar.Controls.Add(btnRefresh);
+            toolbar.Controls.Add(btnSave);
+
+            grid = new DataGridView
+            {
+                Location = new Point(20, 95),
+                Size = new Size(600, 310),
+                Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right,
+                AllowUserToAddRows = false,
+                AllowUserToDeleteRows = false,
+                AutoGenerateColumns = true,
+                AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill,
+                SelectionMode = DataGridViewSelectionMode.FullRowSelect,
+                MultiSelect = true,
+                RowHeadersVisible = false,
+                BackgroundColor = Color.White
+            };
+
+            lblStatus = new Label
+            {
+                Text = "",
+                Location = new Point(20, 415),
+                AutoSize = true,
+                ForeColor = Color.Gray,
+                Font = new Font("Segoe UI", 8.5f)
+            };
+
+            this.Controls.Add(lblTitle);
+            this.Controls.Add(toolbar);
+            this.Controls.Add(grid);
+            this.Controls.Add(lblStatus);
+        }
+
+        private void LoadData()
+        {
+            try
+            {
+                _context?.Dispose();
+                _context = new AppDbContext();
+
+                // Ensure SQLite Database & Table exist
+                _context.Database.EnsureCreated();
+
+                // Seed default values if table is empty
+                if (!_context.PaymentMethods.Any())
+                {
+                    _context.PaymentMethods.AddRange(
+                        new PaymentMethod { MethodName = "CASH", GhCode = "01", IsDefault = true, IsActive = true, CreatedAt = DateTime.Now },
+                        new PaymentMethod { MethodName = "CARD", GhCode = "02", IsDefault = false, IsActive = true, CreatedAt = DateTime.Now }
+                    );
+                    _context.SaveChanges();
+                }
+
+                var methods = _context.PaymentMethods.OrderBy(p => p.Id).ToList();
+
+                grid.DataSource = null;
+                grid.AutoGenerateColumns = true;
+                grid.DataSource = methods;
+
+                // Column formatting after binding
+                if (grid.Columns["Id"] != null)
+                {
+                    grid.Columns["Id"].ReadOnly = true;
+                    grid.Columns["Id"].Width = 45;
+                }
+                if (grid.Columns["CreatedAt"] != null)
+                {
+                    grid.Columns["CreatedAt"].ReadOnly = true;
+                    grid.Columns["CreatedAt"].Width = 140;
+                }
+
+                lblStatus.Text = $"{methods.Count} payment method(s) loaded.";
+                lblStatus.ForeColor = Color.Gray;
+            }
+            catch (Exception ex)
+            {
+                lblStatus.Text = "Database loading failed.";
+                lblStatus.ForeColor = Color.Red;
+                MessageBox.Show($"Error loading PaymentMethods table:\n{ex.Message}", "Database Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var newMethod = new PaymentMethod
+                {
+                    MethodName = "NEW_PAYMENT",
+                    GhCode = "00",
+                    IsDefault = false,
+                    IsActive = true,
+                    CreatedAt = DateTime.Now
+                };
+
+                _context.PaymentMethods.Add(newMethod);
+                _context.SaveChanges();
+                LoadData();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Unable to insert record:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            if (grid.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Please select a row to delete.", "Selection Required", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            var confirm = MessageBox.Show(
+                $"Delete {grid.SelectedRows.Count} selected record(s)?",
+                "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (confirm != DialogResult.Yes) return;
+
+            foreach (DataGridViewRow row in grid.SelectedRows)
+            {
+                if (row.DataBoundItem is PaymentMethod item)
+                {
+                    var entity = _context.PaymentMethods.Find(item.Id);
+                    if (entity != null)
+                    {
+                        _context.PaymentMethods.Remove(entity);
+                    }
+                }
+            }
+
+            _context.SaveChanges();
+            LoadData();
+        }
+
+        private void BtnSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                grid.EndEdit();
+                _context.SaveChanges();
+                lblStatus.Text = "Changes saved successfully!";
+                lblStatus.ForeColor = Color.Green;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to save changes:\n{ex.Message}", "Save Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            _context?.Dispose();
+            base.OnFormClosed(e);
+        }
+    }
+
+```

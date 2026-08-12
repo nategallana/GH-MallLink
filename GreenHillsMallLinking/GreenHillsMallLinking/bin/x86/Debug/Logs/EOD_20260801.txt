@@ -1,0 +1,33 @@
+﻿[2026-08-01 09:59:25] [INFO] [frmProcessEOD] Synced Paradox DB for date 2025-01-01
+[2026-08-01 09:59:26] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-01 10:12:06] [INFO] [frmProcessEOD] Synced Paradox DB for date 2025-01-01
+[2026-08-01 10:12:07] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-01 11:30:39] [INFO] [frmProcessEOD] Synced Paradox DB for date 2025-01-01
+[2026-08-01 11:30:39] [ERROR] [frmProcessEOD] EOD Generation failed for 2025-01-01: [Python Output]:
+
+[Python Errors]:
+ODBC Error: Ensure Microsoft Access Database Engine (Paradox Driver) is installed. Details: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+ERROR: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+
+[2026-08-01 11:33:14] [INFO] [frmProcessEOD] Synced Paradox DB for date 2025-01-01
+[2026-08-01 11:33:15] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-01 11:58:40] [INFO] [frmProcessEOD] Synced Paradox DB for date 2025-01-01
+[2026-08-01 11:58:42] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-01 13:39:28] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-01 13:39:29] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-01
+[2026-08-01 15:31:42] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-01 15:31:44] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-01
+[2026-08-01 16:19:39] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-01 16:19:40] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-01 16:33:24] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-01 16:33:25] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-01
+[2026-08-01 16:39:06] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-01 16:49:15] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-01 16:49:16] [ERROR] [frmProcessEOD] EOD Generation failed for 2026-08-01: [Python Error]: ERROR: NOT NULL constraint failed: GrandTotalTrackers.PreviousZCount
+
+[2026-08-01 16:49:25] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-01 16:49:26] [ERROR] [frmProcessEOD] EOD Generation failed for 2025-01-01: [Python Error]: ERROR: NOT NULL constraint failed: GrandTotalTrackers.PreviousZCount
+
+[2026-08-01 16:57:55] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-01 16:57:56] [ERROR] [frmProcessEOD] EOD Generation failed for 2025-01-01: [Python Error]: ERROR: NOT NULL constraint failed: GrandTotalTrackers.PreviousZCount
+

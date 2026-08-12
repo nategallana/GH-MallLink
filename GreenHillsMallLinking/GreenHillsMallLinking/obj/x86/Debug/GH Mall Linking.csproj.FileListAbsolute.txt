@@ -1,0 +1,90 @@
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\PythonEngine\main.py
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\e_sqlite3.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\PythonEngine\eod_generator.py
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\GH Mall Linking.exe.config
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\GH Mall Linking.exe
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\GH Mall Linking.pdb
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\EntityFramework.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Options.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\SQLitePCLRaw.core.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Buffers.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Collections.Immutable.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.ComponentModel.Annotations.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Memory.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Numerics.Vectors.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\EntityFramework.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.DotNet.PlatformAbstractions.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.EntityFrameworkCore.Sqlite.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.DependencyModel.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Options.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Buffers.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Collections.Immutable.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Memory.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Numerics.Vectors.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH Mall Linking.csproj.AssemblyReference.cache
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH_Mall_Linking.Forms.frmConsolidator.resources
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GHMallLinking.Forms.frmDashboardHome.resources
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH_Mall_Linking.Forms.frmDashboardOverview.resources
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH_Mall_Linking.Forms.frmSettings.resources
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH_Mall_Linking.Properties.Resources.resources
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH_Mall_Linking.Views.frmMain.resources
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH Mall Linking.csproj.GenerateResource.cache
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH Mall Linking.csproj.CoreCompileInputs.cache
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH Mall .314B6D0C.Up2Date
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH Mall Linking.exe
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\obj\x86\Debug\GH Mall Linking.pdb
+C:\Users\MIS-01\Desktop\GH Mall Linking\GH Mall Linking\bin\x86\Debug\PythonEngine\paradox_sync.py

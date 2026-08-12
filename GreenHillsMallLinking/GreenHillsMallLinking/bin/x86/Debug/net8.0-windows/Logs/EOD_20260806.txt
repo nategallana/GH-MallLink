@@ -1,0 +1,52 @@
+﻿[2026-08-06 11:27:32] [ERROR] [frmProcessEOD] Cloud XML Sync Failed: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 5, in <module>
+    import xml_sync
+ModuleNotFoundError: No module named 'xml_sync'
+
+[2026-08-06 11:28:33] [ERROR] [frmProcessEOD] Cloud XML Sync Failed: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 5, in <module>
+    import xml_sync
+ModuleNotFoundError: No module named 'xml_sync'
+
+[2026-08-06 13:37:45] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 13:37:46] [ERROR] [frmProcessEOD] EOD Generation failed for 2022-04-21: [Python Error]: ERROR: Unknown action 'eod'.
+
+[2026-08-06 14:00:10] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 14:00:11] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-21
+[2026-08-06 15:03:11] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 15:03:13] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-22
+[2026-08-06 15:10:04] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 15:10:06] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-21
+[2026-08-06 15:10:58] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 15:11:00] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-21
+[2026-08-06 15:11:46] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 15:11:47] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-23
+[2026-08-06 15:24:00] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 15:24:02] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-22
+[2026-08-06 15:24:03] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-23
+[2026-08-06 15:26:00] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 15:26:01] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-22
+[2026-08-06 15:28:01] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 15:28:02] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-21
+[2026-08-06 15:37:04] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 15:37:06] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-02
+[2026-08-06 15:39:15] [INFO] [frmProcessEOD] Synced Cloud XML data
+[2026-08-06 15:39:17] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-22
+[2026-08-06 16:22:51] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-22
+[2026-08-06 16:22:53] [ERROR] [frmProcessEOD] EOD Generation failed for 2022-04-22: [Python Error]: ERROR: Unknown action 'eod'.
+
+[2026-08-06 16:22:59] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-23
+[2026-08-06 16:23:00] [ERROR] [frmProcessEOD] EOD Generation failed for 2022-04-23: [Python Error]: ERROR: Unknown action 'eod'.
+
+[2026-08-06 16:32:49] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-23
+[2026-08-06 16:32:50] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-23
+[2026-08-06 16:33:53] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-23
+[2026-08-06 16:33:54] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-23
+[2026-08-06 16:41:36] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-23
+[2026-08-06 16:41:37] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-23
+[2026-08-06 16:43:50] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-22
+[2026-08-06 16:43:52] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-22
+[2026-08-06 16:45:45] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-05-22
+[2026-08-06 16:45:47] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-05-22
+[2026-08-06 17:12:35] [INFO] [frmProcessEOD] Synced Cloud XML data for 2022-04-24
+[2026-08-06 17:12:37] [INFO] [frmProcessEOD] Successfully generated EOD file for 2022-04-24
