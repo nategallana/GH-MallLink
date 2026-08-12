@@ -8,6 +8,7 @@ Collecting the data from our client (FRANKIES) that is located in Green Hills.
 Used Python for reading, fetching, and converting the Cloud data to SQL.
 Used C# for reading, fetching, and converting the Paradox database values to SQL. 
 Used SQLite for the database. 
+.NET framework version 8.0, hard coded design and not drag drop. 
 
 If the SQLite database were deleted, the system will automatically create a new one after processing an EOD date. 
 Auto export of .SALE file as well for both Paradox and Cloud values.   
