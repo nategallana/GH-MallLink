@@ -1,0 +1,32 @@
+﻿[2026-08-03 08:20:37] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 08:20:38] [ERROR] [frmProcessEOD] EOD Generation failed for 2025-01-01: [Python Error]: ERROR: NOT NULL constraint failed: GrandTotalTrackers.PreviousZCount
+
+[2026-08-03 10:15:58] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 10:15:59] [ERROR] [frmProcessEOD] EOD Generation failed for 2025-01-01: [Python Error]: ERROR: no such column: NewZCount
+
+[2026-08-03 10:38:38] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 10:38:39] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-03 10:42:27] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 10:42:28] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-03 10:53:43] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 10:53:44] [ERROR] [frmProcessEOD] EOD Generation failed for 2025-01-01: [Python Error]: ERROR: no such column: NewZCount
+
+[2026-08-03 11:01:14] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 11:01:15] [ERROR] [frmProcessEOD] EOD Generation failed for 2025-01-01: [Python Error]: ERROR: no such column: NewZCount
+
+[2026-08-03 11:06:56] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 11:06:57] [ERROR] [frmProcessEOD] EOD Generation failed for 2025-01-01: [Python Error]: ERROR: no such column: NewZCount
+
+[2026-08-03 11:25:08] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 11:25:09] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-03 11:36:50] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 11:36:51] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-03
+[2026-08-03 11:47:35] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 11:47:36] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-03 11:49:43] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 11:49:44] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-03 11:52:46] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 11:52:48] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-03 11:52:58] [INFO] [frmProcessEOD] Synced Paradox DB
+[2026-08-03 11:53:00] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-01
+[2026-08-03 11:53:01] [INFO] [frmProcessEOD] Successfully generated EOD file for 2025-01-02

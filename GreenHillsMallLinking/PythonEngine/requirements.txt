@@ -1,0 +1,3 @@
+﻿pyodbc
+sqlite3
+pypxlib

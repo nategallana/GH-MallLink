@@ -1,0 +1,157 @@
+﻿[2026-08-12 08:46:26] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 08:46:30] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 08:46:31] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-17
+[2026-08-12 08:47:42] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 08:47:44] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 08:48:03] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 08:48:05] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 08:51:05] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 08:51:06] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:01:25] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 09:01:27] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:03:34] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 09:03:36] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:03:53] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 09:03:55] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:44:06] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Starting Native C# Paradox Sync from: 'C:\Users\MIS-01\Desktop\TESTINGPT2\wBoxCloud\CloudAgent\Outbound\wBox'
+[ERROR] C# Paradox Sync failed: ERROR [42S02] [Microsoft][ODBC Paradox Driver] The Microsoft Jet database engine could not find the object 'ordbkup.DB'.  Make sure the object exists and that you spell its name and the path name correctly.
+
+[2026-08-12 09:45:01] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 09:45:02] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:45:29] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Starting Native C# Paradox Sync from: 'C:\Users\MIS-01\Desktop\TESTINGPT2\wBoxCloud\CloudAgent\Outbound\wBox'
+[ERROR] C# Paradox Sync failed: ERROR [42S02] [Microsoft][ODBC Paradox Driver] The Microsoft Jet database engine could not find the object 'ordbkup.DB'.  Make sure the object exists and that you spell its name and the path name correctly.
+
+[2026-08-12 09:45:52] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 09:45:53] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:47:46] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 09:47:47] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 09:48:24] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 09:48:26] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 10:39:43] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 10:39:46] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 10:40:17] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 10:40:18] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 11:27:49] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 11:27:51] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 11:28:02] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 11:28:03] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 15:11:17] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Sync execution failed:
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: SyncHistories.ErrorDetails'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at GH_Mall_Linking.Services.SyncService.ExecuteBulkSyncAsync() in C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\Services\SyncService.cs:line 53
+[2026-08-12 15:11:34] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2026-08-16: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 4, in <module>
+    import eod_generator
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\eod_generator.py", line 6, in <module>
+    from merge_staging import get_merged_transactions, parse_date
+ModuleNotFoundError: No module named 'merge_staging'
+
+[2026-08-12 15:18:31] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Sync execution failed:
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: SyncHistories.ErrorDetails'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at GH_Mall_Linking.Services.SyncService.ExecuteBulkSyncAsync() in C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\Services\SyncService.cs:line 64
+[2026-08-12 15:19:13] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2026-08-16: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 5, in <module>
+    import eod_generator
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\eod_generator.py", line 7, in <module>
+    from merge_staging import (
+    ...<2 lines>...
+    )
+ModuleNotFoundError: No module named 'merge_staging'
+
+[2026-08-12 16:05:01] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Sync execution failed:
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: SyncHistories.ErrorDetails'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at GH_Mall_Linking.Services.SyncService.ExecuteBulkSyncAsync() in C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\Services\SyncService.cs:line 64
+[2026-08-12 16:10:11] [ERROR] [frmProcessEOD] Cloud XML Sync Failed for 2026-08-16: [Python Error]: Traceback (most recent call last):
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\main.py", line 5, in <module>
+    import eod_generator
+  File "C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\bin\x86\Debug\net8.0-windows\PythonEngine\eod_generator.py", line 7, in <module>
+    from merge_staging import (
+    ...<2 lines>...
+    )
+ModuleNotFoundError: No module named 'merge_staging'
+
+[2026-08-12 16:22:31] [ERROR] [frmProcessEOD] C# Paradox Sync Failed: Sync execution failed:
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: SyncHistories.ErrorDetails'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at GH_Mall_Linking.Services.SyncService.ExecuteBulkSyncAsync() in C:\Users\MIS-01\Desktop\GreenHillsMallLinking\GreenHillsMallLinking\Services\SyncService.cs:line 111
+[2026-08-12 16:23:05] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 16:23:06] [ERROR] [frmProcessEOD] EOD Generation failed for 2026-08-16: [Python Error]: ERROR: EOD Generation failed for 2026-08-16: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+
+[2026-08-12 16:43:17] [INFO] [frmProcessEOD] Synced Paradox DB via Native C# Engine
+[2026-08-12 16:43:24] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
+[2026-08-12 16:44:27] [INFO] [frmProcessEOD] Synced Cloud XML data for 2026-08-16
+[2026-08-12 16:44:29] [INFO] [frmProcessEOD] Successfully generated EOD file for 2026-08-16
