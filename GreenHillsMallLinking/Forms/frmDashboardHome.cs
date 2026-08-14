@@ -84,19 +84,17 @@ namespace GH_Mall_Linking.Forms
                     "• Select your Start/End Date, check options, and run live processing.\n" +
                     "• Real-time logs and error reports stream directly in the console.\n\n" +
 
-                    "2. SYNC ONLY\n" +
-                    "• Triggers database and table synchronization without full EOD routines.\n" +
-                    "• Runs lightweight background sync tasks.\n\n" +
-
-                    "3. PAYMENT METHODS\n" +
+                    "2. PAYMENT METHODS\n" +
                     "• Map store payment types (Cash, Card, E-Wallets) to mall requirements.\n\n" +
 
-                    "4. SYSTEM SETTINGS\n" +
+                    "3. SYSTEM SETTINGS\n" +
                     "• Configure source data paths, Python executable locations, and database connections.\n\n" +
+                   
+                    "4. HOME PAGE\n" +
+                    "• Access the main dashboard and overview of the system.\n\n" +
 
-                    "5. VIEW LOGS & CONSOLIDATOR\n" +
-                    "• View Logs: Inspect historical error reports and operational transaction logs.\n" +
-                    "• Consolidator: Aggregate individual store sales files into unified submission reports.",
+                    "5. EXIT\n" +
+                    "• Close the application and save any unsaved changes.\n",
 
                 Font = new Font("Century Gothic", 9.5f, FontStyle.Regular),
                 ForeColor = Color.Black,
